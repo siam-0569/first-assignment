@@ -165,42 +165,67 @@ body {
 .box-sec {
     width: 300px;
     height: 250px;
-    border: 1px solid green;
     padding: 20px;
     padding-bottom: 50px;
     border-radius: 8px;
     background-color: #83a4c7;
+    transform: scale(1.0);
+    transition: all 0.2s ease-in;
+}
+
+.box-sec:hover,
+.box-sec2:hover,
+.box-sec3:hover {
+    transform: scale(0.9);
+    transition: all 0.2s ease-in;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    /* transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+} */
 }
 
 .box-sec2 {
     width: 300px;
     height: 250px;
-    border: 1px solid green;
     padding: 20px;
     padding-bottom: 50px;
     border-radius: 8px;
     background-color: #C6E4D6;
+    transform: scale(1.0);
+    transition: all 0.2s ease-in;
 }
 
 .box-sec3 {
     width: 300px;
     height: 250px;
-    border: 1px solid green;
     padding: 20px;
     padding-bottom: 50px;
     border-radius: 8px;
     background-color: #F7EBCF;
+    transform: scale(1.0);
+    transition: all 0.1s ease-in;
 }
 
 .box-btn {
     font-size: 18px;
-    padding: 10px 20px;
-    border-radius: 8px;
-    border: 1px solid #09A15C;
+    padding: 12px 25px;
+    border-radius: 1px 30px;
+    border: 1px solid gainsboro;
     font-weight: bold;
     margin-top: 30px;
-    background-color: white;
+    /* background-color: white; */
     opacity: 0.9;
+    transform: scale(1.0);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #7c3aed;
+    color: #F5F5F5;
+}
+
+.box-btn:hover {
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+    background-color: #6d28d9;
 }
 
 .box-para {
@@ -222,4 +247,131 @@ body {
 .vision-para {
     font-size: 16px;
     font-weight: 500;
+}
+
+.section4 {
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.sec4-para {
+    font-size: 16px;
+    padding-top: 22px;
+    margin-bottom: 30px;
+}
+
+.dr-name {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.dr-infor {
+    margin-top: -15px;
+    font-weight: 400;
+
+}
+
+.opinions-heading {
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin: 50px auto;
+
+}
+
+.opinion-section {
+    background-color: #F5F5F5;
+}
+
+.table-sec {
+    border: 1px solid greenyellow;
+    border-collapse: collapse;
+    width: 100%;
+
+
+}
+
+.table-section,
+th,
+.table-section,
+td {
+    border: 1px solid green;
+    padding: 20px;
+    border-collapse: collapse;
+    text-transform: capitalize;
+}
+
+.table-headers {
+    background-color: #c6e4d6;
+}
+
+.for-bg {
+    background-color: #ffffff;
+}
+
+.select-for {
+    background-color: #c6e4d6;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+
+
+/* ekhan theke news option */
+
+.news-heading{
+    font-size: 35px;
+    margin-top: 80px;
+   text-transform: capitalize;
+}
+
+.news-para{
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.news-section{
+    display: flex;
+   border-radius: 20px;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+.div2{
+    padding-left: 30px;
+
+}
+
+.images{
+    border-radius: 20px;
+}
+.time{
+ opacity: 0.9 ;
+ font-size: 14px;
+}
+.news-para{
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.btn-news{
+    font-size: 18px;
+    padding: 5px 12px;
+    border-radius: 4px;
+   margin-bottom: 30px;
+  cursor: pointer;
+  border: 1px solid white;
+  font-weight: 600;
+  background-color: #573815;
+  color: #F5F5F5;
+  transform: scale(0.9);
+  transition: 0.2s ease-in;
+}
+
+.btn-news:hover{
+    transform: scale(1.0);
+    transition: 0.2s ease-in;
 }

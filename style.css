@@ -30,55 +30,130 @@ body {
     border-radius: 5px;
     font-weight: 600;
     transform: scale(0.9);
-    
+
 }
-.header-btn:hover{
+
+.header-btn:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.0);
 }
+
 .img-header {
     max-width: 1030px;
     height: 560px;
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 
-.im-card{
+.im-card {
     display: flex;
     gap: 15px;
     justify-content: space-around;
 
 }
 
-.cardstyle{
-  width: 202px;
- height: 205px;
- border: 1px solid #006A50;
- border-radius: 5px;
-padding: 20px;
-background-color: #ffffff;
-transform: scale(1.0);
-transition: 0.3s ease-in-out;
-margin-top: 30px;
+.cardstyle {
+    width: 202px;
+    height: 205px;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    transform: scale(1.0);
+    transition: 0.3s ease-in-out;
+    margin-top: 30px;
 }
-.cardstyle:hover{
+
+.cardstyle:hover {
     transform: scale(0.9);
     transition: 0.3s ease-in-out;
 }
 
 
-.img-heading{
+.img-heading {
     text-align: center;
     font-size: 25px;
-   
+
 }
 
-.img-main{
+.img-main {
     margin: 0 auto;
     display: flex;
 }
-.img-para{
+
+.img-para {
     text-align: center;
     color: #0E0E0E;
     font-weight: 300;
     padding-bottom: 10px;
+}
+
+
+.vision-sec {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+
+.box-sec {
+    width: 300px;
+    height: 250px;
+    border: 1px solid green;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    background-color: #83a4c7;
+}
+
+.box-sec2 {
+    width: 300px;
+    height: 250px;
+    border: 1px solid green;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    background-color: #C6E4D6;
+}
+
+.box-sec3 {
+    width: 300px;
+    height: 250px;
+    border: 1px solid green;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    background-color: #F7EBCF;
+}
+
+.box-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #09A15C;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.box-para {
+    font-size: 16px;
+
+    font-weight: 300;
+}
+
+.box-img-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.vision-heading{
+ font-size: 24px;
+ margin-top: 80px;
+}
+.vision-para{
+    font-size: 16px;
+    font-weight: 500;
 }
